@@ -1,0 +1,30 @@
+# Core Dependencies - Python 3.12 Compatible
+flask==3.0.0
+flask-sock==0.7.0
+requests==2.31.0
+
+# Data Processing
+pandas==2.0.3
+numpy==1.26.0
+
+# Visualization - Updated for Python 3.12
+plotly==5.17.0
+streamlit==1.31.1  # Updated - fixes distutils issue
+
+# Optional but recommended for production
+gevent==23.9.1
+gevent-websocket==0.10.1
+gunicorn==21.2.0
+
+# Utilities
+python-dotenv==1.0.0
+
+# For Streamlit (Python 3.12 compatible)
+Pillow==10.0.0
+
+# Development/Testing
+pytest==7.4.0
+pytest-asyncio==0.21.0
+
+# Python 3.12 Compatibility - Restore setuptools for distutils
+setuptools>=68.0.0
