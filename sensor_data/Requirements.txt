@@ -2,3 +2,5 @@
 Add components: 
     1. esp_websocket_client
     2. esp-protocols
+
+run this in esp-idf with Ubuntu 
